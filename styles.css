@@ -1,0 +1,99 @@
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+header {
+    position: relative;
+    padding: 20px 0;
+}
+
+.logo {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+}
+
+.hero {
+    margin-top: 60px; /* Adjust this if needed to ensure proper spacing */
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.hero h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.25rem;
+    margin-bottom: 30px;
+}
+
+.popular-classes h3 {
+    font-size: 2rem;
+}
+
+.class-card h4 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+}
+
+.class-card p {
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+/* Responsive Design Adjustments */
+@media (max-width: 992px) {
+    .hero h1 {
+        font-size: 2rem;
+    }
+
+    .hero h2 {
+        font-size: 1.75rem;
+    }
+
+    .hero p {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .hero h1 {
+        font-size: 1.75rem;
+    }
+
+    .hero h2 {
+        font-size: 1.5rem;
+    }
+
+    .hero p {
+        font-size: 0.9rem;
+    }
+
+    .class-card {
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 576px) {
+    .hero h1 {
+        font-size: 1.5rem;
+    }
+
+    .hero h2 {
+        font-size: 1.25rem;
+    }
+
+    .hero p {
+        font-size: 0.85rem;
+    }
+
+    .buttons .btn {
+        font-size: 1rem;
+    }
+}
